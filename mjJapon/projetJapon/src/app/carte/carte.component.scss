@@ -1,0 +1,34 @@
+.carte {
+    background-image: url("/assets/images/be-jp-red.png");
+    width: 1000px;
+    height: 470px;
+    margin:auto;
+    position: relative;
+}
+
+
+
+.avion {
+    width: 30px;
+    height: 30px;
+    margin-left: 50%;
+}
+
+.trajet {
+    padding-left: 140px;
+    padding-top: 281px;
+    padding-right: 250px;
+    transform: rotate(8deg);
+}
+
+.panneau {
+    width: 35%;
+    border-color: yellow;
+    border-style: double;
+    border-width: 1px;
+    margin-left: 85%;
+    margin-top: 35px;
+    overflow:hidden;
+    position: absolute;
+    color: white;
+}
